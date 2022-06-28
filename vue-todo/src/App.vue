@@ -4,7 +4,7 @@
     <TodoInput></TodoInput>
     <TodoList></TodoList>
     <TodoFooter></TodoFooter>
-<todo
+
   </div>
 </template>
 
@@ -40,5 +40,18 @@ export default {
 </script>
 
 <style>
+body{
+  text-align: center;
+  background-color: #F6F6F6;
+}
+input {
+  border-style: groove;
+}
+button{
+  border-style: groove;
+}
+.shadow{ /* 그림자 효과 */
+  box-shadow: 5px 10px 10px rgba(0,0,0, 0.03);
+}
 
 </style>
